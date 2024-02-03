@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export>
+	<person FirstName="Иван" LastName="Иванов" Age="32">
+		<address>
+			<city>Ростов</city>
+			<street>Королева</street>
+			<house>10</house>
+		</address>
+	</person>
+	<person FirstName="Сергей" LastName="Петров" Age="50">
+		<address>
+			<city>Ростов</city>
+			<street>Комарова</street>
+			<house>20</house>
+		</address>
+	</person>
+	<person FirstName="Алексей" LastName="Сидоров" Age="10">
+		<address>
+			<city>Москва</city>
+			<street>Королева</street>
+			<house>20</house>
+		</address>
+	</person>	
+	<person FirstName="Игорь" LastName="Иванов" Age="23">
+		<address>
+			<city>Москва</city>
+			<street>Шаболовка</street>
+			<house>2</house>
+		</address>
+	</person>
+	<person FirstName="Александр" LastName="Пушкин" Age="10">
+		<address>
+			<city>Санкт-Петербург</city>
+			<street>Академика</street>
+			<house>10</house>
+		</address>
+	</person>
+</export>

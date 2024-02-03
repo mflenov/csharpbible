@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiddenOverflow", "HiddenOverflow.csproj", "{034CF410-2B11-40E3-87A3-5980BB7ACEE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034CF410-2B11-40E3-87A3-5980BB7ACEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034CF410-2B11-40E3-87A3-5980BB7ACEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034CF410-2B11-40E3-87A3-5980BB7ACEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034CF410-2B11-40E3-87A3-5980BB7ACEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EB8E7AE-97D4-4809-9EB4-60D2B590E5E0}
+	EndGlobalSection
+EndGlobal

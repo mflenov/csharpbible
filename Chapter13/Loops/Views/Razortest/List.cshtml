@@ -1,0 +1,48 @@
+﻿@model MyWebSite.ViewModel.Person[]
+
+<h1>for</h1>
+<p>Цикл for:</p>
+<ul>
+    @for (var i = 0; i < Model.Length; i++)
+    {
+        <li>@Model[i].LastName @Model[i].LastName (@Model[i].Age)</li>
+    }
+</ul>
+
+<hr />
+
+<h1>foreach</h1>
+<p>Цикл foreach:</p>
+<ul>
+    @foreach (var p in Model)
+    {
+        <li>@p.LastName @p.LastName (@p.Age)</li>
+    }
+</ul>
+
+<hr />
+
+<h1>while</h1>
+<p>Цикл while:</p>
+<ul>
+    @{
+        int index = 0;
+    }
+    @while (index < Model.Length)
+    {
+        <li>
+            @Model[index].LastName
+            @Model[index].LastName (@Model[index].Age)
+        </li>
+        index++;
+    }
+</ul>
+
+
+<h1>while</h1>
+<p>Классический C# цикл:</p>
+@{
+    for (int i = 0; i < 10; i++)
+    {
+    }
+}

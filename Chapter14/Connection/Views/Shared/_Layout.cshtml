@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="/css/stylesheet.css"/>
+</head>
+<body>
+    <header>
+        <span class="menu">
+            <a href="/City/ListCities">List Cities</a>
+        </span>
+        <span class="logo">Logo</span>
+        @RenderSection("head", required: false)
+    </header>
+    <div class="page">
+        @RenderBody()
+    </div>
+    <footer>
+        Copyright: www.flenov.info
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

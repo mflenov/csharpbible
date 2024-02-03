@@ -1,0 +1,17 @@
+﻿@model MyWebSite.ViewModel.Person
+
+@{
+    ViewBag.Title = "This is my index page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hello</h1>
+<p>First Name: @Model.FirstName</p>
+<p>Last Name: @Model.LastName</p>
+<p>Age: @Model.Age</p>
+
+
+@{
+    int i = 10;
+    @: This is a string @i
+}

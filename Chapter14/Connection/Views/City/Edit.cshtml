@@ -1,0 +1,11 @@
+﻿@model MyWebSite.Model.DataModel.City
+
+<div class="list">
+    <form method="post" action="/City/Edit/">
+        <input type="hidden" name="cityid" value="@Model.CityId" />
+
+        <label>Город</label>
+        <input name="CityName" value="@Model.CityName" />
+        <button>Сохранить</button>
+    </form>
+</div>

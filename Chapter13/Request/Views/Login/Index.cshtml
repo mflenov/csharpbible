@@ -1,0 +1,15 @@
+﻿@model MyWebSite.ViewModel.LoginModel
+
+<form method="post" action="/login/index">
+    <h1>@ViewBag.Title</h1>
+    @Html.ValidationSummary()
+    <label>E-mail</label>
+    <input type="text" name="Email" value="@Model.Email" />
+    @Html.ValidationMessageFor(m => m.Email)
+    <br />
+    <label>Password</label>
+    <input type="password" name="Password" value="@Model.Password" />
+    @Html.ValidationMessageFor(m => m.Password)
+    <hr />
+    <button>Войти</button>
+</form> 

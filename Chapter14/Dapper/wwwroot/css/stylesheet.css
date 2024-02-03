@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0px;
+    background:#eee;
+}
+
+header {
+    background: #e1f5f9;
+    padding: 30px
+}
+
+header .logo {
+    font-size:150%;
+}
+
+.page {
+    min-height:100px;
+    padding:10px 30px 30px 30px;
+    background:#fff;
+}
+
+footer {
+    background: #e1f5f9;
+    padding: 30px
+}
+
+header .menu {
+    float:right;
+    padding:20px;
+}
+
+header, footer, .page {
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.listitem {
+    box-shadow: 0px 2px 10px #ccc;
+    border: 1px solid #bbb;
+    padding: 12px;
+    margin: 20px;
+    display:flex;
+}
+
+.listitem span:nth-of-type(1) {
+    width: 60%;
+}
+
+.listitem span {
+    width: 20%;
+}

@@ -1,0 +1,13 @@
+﻿@model List<MyWebSite.Model.DataModel.City>
+
+<div class="list">
+    @foreach (var city in Model) {
+    <div class="listitem">
+        <span>@city.CityName</span>
+        <span><a href="/City/Edit/@city.CityId">Редактировать</a></span>
+        <span><a href="/City/Delete/@city.CityId">Удалить</a></span>
+    </div>
+    }
+    <hr/>
+    <a href="/City/Create">Добавить</a>
+</div>
