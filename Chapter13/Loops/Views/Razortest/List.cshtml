@@ -5,7 +5,7 @@
 <ul>
     @for (var i = 0; i < Model.Length; i++)
     {
-        <li>@Model[i].LastName @Model[i].LastName (@Model[i].Age)</li>
+        <li>@Model[i].FirstName @Model[i].LastName (@Model[i].Age)</li>
     }
 </ul>
 
@@ -16,7 +16,7 @@
 <ul>
     @foreach (var p in Model)
     {
-        <li>@p.LastName @p.LastName (@p.Age)</li>
+        <li>@p.FirstName @p.LastName (@p.Age)</li>
     }
 </ul>
 
@@ -31,7 +31,7 @@
     @while (index < Model.Length)
     {
         <li>
-            @Model[index].LastName
+            @Model[index].FirstName
             @Model[index].LastName (@Model[index].Age)
         </li>
         index++;
