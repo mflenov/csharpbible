@@ -16,7 +16,7 @@
 <ul>
     @foreach (var p in Model)
     {
-        <li>@Html.PartialAsync("_Item", p);</li>
+        <li>@await Html.PartialAsync("_Item", p);</li>
     }
 </ul>
 
